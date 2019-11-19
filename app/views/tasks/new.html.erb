@@ -1,0 +1,15 @@
+<h1>New task</h1>
+<!--
+<form action="/tasks" method="post">
+  <label for="title">Title</label>
+  <input type="text" name="title">
+  <label for="details">Details</label>
+  <input type="text" name="details">
+  <label for="completed">Completed</label>
+  <input type="checkbox" name="completed">
+  <input type="submit" value="Create task">
+</form> -->
+
+<%= render 'form', task: @task %>
+
+<%= link_to 'Back to list', '/tasks' %>
